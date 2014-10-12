@@ -36,7 +36,7 @@ router.post('/register', function(req, res) {
         error = 'That email is already taken, please try another.';
       }
 
-      res.render('login.jade', { error: error });
+      res.render('register.jade', { error: error });
     } else {
       utils.createUserSession(req, res, user);
       res.redirect('/dashboard');
