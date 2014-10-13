@@ -3,6 +3,8 @@
 This project contains code which shows how to implement your own user
 authentication in a Node.js web app with MongoDB.
 
+The talk slides can be found on [SpeakerDeck][].
+
 
 ## Installation
 
@@ -30,3 +32,6 @@ way for new Node.js (*and web*) developers.
 ## Questions
 
 Got questions?  Hit me up!  I'm r@rdegges.com.
+
+
+  [SpeakerDeck]: https://speakerdeck.com/rdegges/everything-you-ever-wanted-to-know-about-authentication-in-node-dot-js "Everything You Ever Wanted to Know About Authentication in Node.js"
