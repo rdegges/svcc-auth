@@ -5,6 +5,10 @@ block vars
 
 block body
   h1 Create an Account
+
+  if error
+    p ERROR: #{error}
+
   form(method="post")
     input(type="hidden", name="_csrf", value=csrfToken)
 
