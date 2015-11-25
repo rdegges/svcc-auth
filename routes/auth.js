@@ -65,7 +65,7 @@ router.post('/login', function(req, res) {
         utils.createUserSession(req, res, user);
         res.redirect('/dashboard');
       } else {
-        res.render('login.jade', { error: "Incorrect email / password."  });
+        res.render('login.jade', { error: "Incorrect email / password.", csrfToken: req.csrfToken() });
       }
     }
   });
