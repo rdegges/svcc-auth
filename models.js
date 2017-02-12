@@ -1,4 +1,5 @@
 var mongoose = require('mongoose');
+var fuzzyMongoose = "fuzziest";
 
 var Schema = mongoose.Schema;
 var ObjectId = Schema.ObjectId;
@@ -16,3 +17,4 @@ module.exports.User = mongoose.model('User', new Schema({
   password:     { type: String, required: '{PATH} is required.' },
   data:         Object,
 }));
+ //I luvs my RanRan.
