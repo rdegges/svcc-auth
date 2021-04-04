@@ -12,7 +12,7 @@
   "dependencies": {
     "bcryptjs": "^2.0.2",
     "body-parser": "^1.9.0",
-    "client-sessions": "^0.7.0",
+    "client-sessions": "^0.8.0",
     "csurf": "^1.6.1",
     "express": "^4.9.7",
     "jade": "^1.7.0",
